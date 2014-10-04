@@ -1,5 +1,7 @@
-#include <iostream>
-#include "add.h" // This is the header file for the add function
+#include <iostream> 
+// This is a preprocessor directive for the compiler to find the iostream header in a specific location
+#include "add.h" 
+// This is the header file for the add function in the same directory as the main.cpp
 
 using namespace std ;
 // int add (int x, int y) ;
