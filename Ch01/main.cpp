@@ -1,9 +1,17 @@
 #include <iostream>
+#include "add.h" // This is the header file for the add function
 
 using namespace std ;
-int add (int x, int y) ;
+// int add (int x, int y) ;
 
 int main(){
-	cout << "The sum of 3 and 5 is: " << add(3,5) << endl ;
+	// Getting user input for the integer values
+	int a, b;
+	cout <<"Enter an integer " <<endl ;
+	cin >>  a ;
+	cout <<"Enter an integer " <<endl ;
+	cin >>  b ;
+
+	cout << "The sum of "<< a <<" and "<< b <<" is: " << add(a,b) << endl ;
 	return 0;
 }
