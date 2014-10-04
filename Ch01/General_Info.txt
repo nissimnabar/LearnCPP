@@ -1,0 +1,8 @@
+The work to be done by a C++ program can be split into three categories:
+1) Get user input
+2) Calculate values based on the user input
+3) Print these values out for the user
+
+The first and third step should, ideally, be done in the main() function. The second step is an ideal
+choice for creating functions. Each function should do one, and only one, thing well.
+
